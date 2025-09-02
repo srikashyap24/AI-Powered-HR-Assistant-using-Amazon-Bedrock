@@ -15,7 +15,7 @@ The **AI-Powered HR Assistant** is a conversational AI system designed to stream
   - Working guidelines and company policies  
 
 **Screenshot:**  
-![AI Agent Chat Interface](screenshots/chat_interface.png)
+<img src="agent.py"/>
 
 ### 2. Retrieval-Augmented Generation (RAG)
 - Integrated **Amazon Bedrock Knowledge Bases** to store HR documents and historical records.  
