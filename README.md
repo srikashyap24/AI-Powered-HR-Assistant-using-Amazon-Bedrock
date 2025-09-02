@@ -38,19 +38,19 @@ The **AI-Powered HR Assistant** is a conversational AI system designed to stream
 - Lambda functions process the submitted data and store it in Amazon DynamoDB.  
 
 **Screenshot:**  
--Agent Creation
+-Action group for leave submition
 <img src="action_group.png"/>
 
--Agent Working
+-Action group for benefit submition
 <img src="action_group_2.png"/>
 
--Agent Creation
+-working of Leave submition
 <img src="action_group_use.png"/>
 
--Agent Working
+-updataion at dynamo DB tables
 <img src="dynamo_db.png"/>
 
--Agent Working
+-Lambda Function for Leave submition
 <img src="lambda_function.png"/>
 
 ### 5. Workflow Automation & Security
@@ -61,7 +61,7 @@ The **AI-Powered HR Assistant** is a conversational AI system designed to stream
 
 ## Architecture
 **Screenshot of Architecture Diagram:**  
-![Architecture](screenshots/architecture_diagram.png)
+<img src="structure.png"/>
 
 1. Employee interacts with the **AI agent** via a chat interface.  
 2. The agent queries the **Bedrock Knowledge Base** for relevant HR policies.  
