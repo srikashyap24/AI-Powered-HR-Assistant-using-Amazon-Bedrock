@@ -26,8 +26,6 @@ The **AI-Powered HR Assistant** is a conversational AI system designed to stream
 - Integrated **Amazon Bedrock Knowledge Bases** to store HR documents and historical records.  
 - Ensures AI responses are **accurate and grounded in company data**, reducing misinformation.  
 
-**Screenshot:**  
-![Knowledge Base Search](screenshots/knowledge_base_search.png)
 
 ### 3. Centralized Data Storage
 - **Amazon S3** is used to store all HR-related documents (PDFs, spreadsheets, policy docs).  
@@ -40,7 +38,20 @@ The **AI-Powered HR Assistant** is a conversational AI system designed to stream
 - Lambda functions process the submitted data and store it in Amazon DynamoDB.  
 
 **Screenshot:**  
-![Leave Request Submission](screenshots/leave_request.png)
+-Agent Creation
+<img src="action_group.png"/>
+
+-Agent Working
+<img src="action_group_2.png"/>
+
+-Agent Creation
+<img src="action_group_use.png"/>
+
+-Agent Working
+<img src="dynamo_db.png"/>
+
+-Agent Working
+<img src="lambda_function.png"/>
 
 ### 5. Workflow Automation & Security
 - **AWS Lambda functions** handle incoming requests and update DynamoDB.  
