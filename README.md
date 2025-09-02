@@ -31,7 +31,8 @@ The **AI-Powered HR Assistant** is a conversational AI system designed to stream
 - Employees can submit:  
   - **Leave requests**  
   - **Benefits requests**  
-- Requests are directly stored in **Amazon DynamoDB** for tracking and processing.  
+- Requests are handled via AWS Lambda functions triggered by Action Groups.
+- Lambda functions process the submitted data and store it in Amazon DynamoDB.  
 
 **Screenshot:**  
 ![Leave Request Submission](screenshots/leave_request.png)
